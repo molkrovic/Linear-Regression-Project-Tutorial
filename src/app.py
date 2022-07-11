@@ -31,7 +31,7 @@ lin_reg = LinearRegression()
 lin_reg.fit(X_train, y_train)
 
 # Guardar el modelo
-filename = 'modelo_regresion_lineal'
+filename = 'modelo_regresion_lineal.sav'
 pickle.dump(lin_reg, open(filename, 'wb'))
 
 # Evaluar el modelo
